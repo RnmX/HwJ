@@ -1,0 +1,10 @@
+html
+  head
+    title= title
+  body
+    h1= message
+    p We are glad you want to subscribe to our portal!
+    p Please enter your email below:
+    form(method='POST', action='/')
+        input(type='text',placeholder='email@example.com',name='email')
+        button(type='submit',value='Submit') Subscribe!
